@@ -60,3 +60,53 @@ console.log("Logical NOT (!): ", !x);
 let d = 5;
 console.log("Increment (d++): ", d++);
 console.log("Decrement (d--): ", d--);
+
+
+// Conditional Statements
+
+// vote 
+
+let age1 = 18;
+
+if (age1 >= 18) {
+    console.log("You are eligible to vote.");
+} else {
+    console.log("You are not eligible to vote.");
+}
+
+// even and odd
+let num = 10;
+
+if (num % 2 === 0) {
+    console.log("The number is even.");
+} else {
+    console.log("The number is odd.");
+}
+
+// nested if
+
+let marks = 85;
+
+if (marks >= 90) {
+    console.log("Grade: A");
+} else if (marks >= 80) {
+    console.log("Grade: B");
+} else if (marks >= 70) {
+    console.log("Grade: C");
+} else if (marks >= 60) {
+    console.log("Grade: D");
+} else {
+    console.log("Grade: F");
+}
+
+// Conditional statements are used to execute different blocks of code based on whether a condition is true or false.
+
+let time = 14;
+
+if (time < 12) {
+    console.log("Good morning!");
+} else if (time < 18) {
+    console.log("Good afternoon!");
+} else {
+    console.log("Good evening!");
+}
