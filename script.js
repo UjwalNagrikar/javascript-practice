@@ -115,22 +115,45 @@
 
 // for loop
 
-for (let i = 0; i < 5; i++) {
-    console.log("For loop iteration: ", i);
+// for (let i = 0; i < 5; i++) {
+//     console.log("For loop iteration: ", i);
+// }
+
+// // while loop
+
+// let j = 0;
+// while (j < 5) {
+//     console.log("While loop iteration: ", j);
+//     j++;
+// }
+
+// // do-while loop
+
+// let k = 0;
+// do {
+//     console.log("Do-While loop iteration: ", k);
+//     k++;
+// } while (k < 5);
+
+// arrays 
+
+let arr1 = [1, 2, 3, 4, 5];
+console.log("Array: ", arr1);
+
+// array methods
+console.log("Array length: ", arr1.length);
+console.log("Array push: ", arr1.push(6));
+console.log("Array pop: ", arr1.pop());
+
+// update values
+arr1[0] = 10;
+console.log("Updated Array: ", arr1);
+
+// loop through array
+
+for (let i = 0; i < arr1.length; i++) {
+    console.log("Array element at index ", i, ": ", arr1[i]);
 }
 
-// while loop
 
-let j = 0;
-while (j < 5) {
-    console.log("While loop iteration: ", j);
-    j++;
-}
 
-// do-while loop
-
-let k = 0;
-do {
-    console.log("Do-While loop iteration: ", k);
-    k++;
-} while (k < 5);
