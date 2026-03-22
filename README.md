@@ -1,0 +1,1 @@
+thrse is js pratice 
